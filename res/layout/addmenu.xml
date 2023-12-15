@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="116dp"
+        android:text="ADD    MENU "
+        android:textAlignment="center"
+        android:textColor="#77DD77"
+        android:textSize="70sp"
+        app:fontFamily="@font/nothing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextprice2"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:background="@drawable/dotted_line_background"
+        android:ems="10"
+        android:fontFamily="@font/nothing"
+        android:inputType="text"
+        android:text="Name Of Menu (ex. Nasi Goreng)"
+        android:textColor="@color/grey1"
+        android:textFontWeight="1000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <EditText
+        android:id="@+id/editTextprice"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:background="@drawable/dotted_line_background"
+        android:ems="10"
+        android:fontFamily="@font/nothing"
+        android:inputType="text"
+        android:text="Price Of Menu (ex. Rp25,000)"
+        android:textColor="@color/grey1"
+        android:textFontWeight="1000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="179dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#77DD77"
+        android:fontFamily="@font/nothing"
+        android:text="ADD MENU"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
